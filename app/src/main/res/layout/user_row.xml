@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="0dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imagTechnician"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/umar" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTechnicianName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umar Farooq"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTechnicianNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03104187789"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#000"
+            android:text="Add"
+            android:layout_gravity="end"
+            android:textColor="#FFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
